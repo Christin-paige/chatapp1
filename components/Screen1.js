@@ -35,22 +35,18 @@ return (
  <View style={styles.threeCircles}>
   <TouchableOpacity style={[ styles.circle, styles.circleColor1]}
  onPress={() =>  { setBackgroundColor('#090C08');
-navigation.navigate('Chat', {backgroundColor: '#090C08'});
 }}
 />
   <TouchableOpacity style={[ styles.circle, styles.circleColor2]}
   onPress={() =>{ setBackgroundColor('#474056');
-  navigation.navigate('Chat', { backgroundColor:'#474056' });
  }}
   />
   <TouchableOpacity style={[ styles.circle, styles.circleColor3]}
    onPress={() =>{ setBackgroundColor('#8A95A5');
-   navigation.navigate('Chat', { backgroundColor:'#8A95A5' });
   }}
    />
   <TouchableOpacity style={[ styles.circle, styles.circleColor4]}
     onPress={() =>{ setBackgroundColor('#B9C6AE');
-    navigation.navigate('Chat', { backgroundColor:'#B9C6AE' });
    }}
      
   />
